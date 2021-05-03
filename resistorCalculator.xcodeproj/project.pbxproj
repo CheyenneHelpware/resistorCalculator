@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7095BC22640368000BCBDA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7095BC12640368000BCBDA3 /* AppDelegate.swift */; };
+		C7095BC42640368000BCBDA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7095BC32640368000BCBDA3 /* SceneDelegate.swift */; };
+		C7095BC62640368000BCBDA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7095BC52640368000BCBDA3 /* ViewController.swift */; };
+		C7095BC92640368000BCBDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7095BC72640368000BCBDA3 /* Main.storyboard */; };
+		C7095BCB2640368300BCBDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7095BCA2640368300BCBDA3 /* Assets.xcassets */; };
+		C7095BCE2640368300BCBDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7095BCC2640368300BCBDA3 /* LaunchScreen.storyboard */; };
+		C7095BD92640368300BCBDA3 /* resistorCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7095BD82640368300BCBDA3 /* resistorCalculatorTests.swift */; };
+		C7095BE42640368300BCBDA3 /* resistorCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7095BE32640368300BCBDA3 /* resistorCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7095BD52640368300BCBDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7095BB62640368000BCBDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7095BBD2640368000BCBDA3;
+			remoteInfo = resistorCalculator;
+		};
+		C7095BE02640368300BCBDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7095BB62640368000BCBDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7095BBD2640368000BCBDA3;
+			remoteInfo = resistorCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7095BBE2640368000BCBDA3 /* resistorCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resistorCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7095BC12640368000BCBDA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7095BC32640368000BCBDA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7095BC52640368000BCBDA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7095BC82640368000BCBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7095BCA2640368300BCBDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7095BCD2640368300BCBDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7095BCF2640368300BCBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7095BD42640368300BCBDA3 /* resistorCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resistorCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7095BD82640368300BCBDA3 /* resistorCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorTests.swift; sourceTree = "<group>"; };
+		C7095BDA2640368300BCBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7095BDF2640368300BCBDA3 /* resistorCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resistorCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7095BE32640368300BCBDA3 /* resistorCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorUITests.swift; sourceTree = "<group>"; };
+		C7095BE52640368300BCBDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7095BBB2640368000BCBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BD12640368300BCBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BDC2640368300BCBDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7095BB52640368000BCBDA3 = {
+			isa = PBXGroup;
+			children = (
+				C7095BC02640368000BCBDA3 /* resistorCalculator */,
+				C7095BD72640368300BCBDA3 /* resistorCalculatorTests */,
+				C7095BE22640368300BCBDA3 /* resistorCalculatorUITests */,
+				C7095BBF2640368000BCBDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7095BBF2640368000BCBDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7095BBE2640368000BCBDA3 /* resistorCalculator.app */,
+				C7095BD42640368300BCBDA3 /* resistorCalculatorTests.xctest */,
+				C7095BDF2640368300BCBDA3 /* resistorCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7095BC02640368000BCBDA3 /* resistorCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C7095BC12640368000BCBDA3 /* AppDelegate.swift */,
+				C7095BC32640368000BCBDA3 /* SceneDelegate.swift */,
+				C7095BC52640368000BCBDA3 /* ViewController.swift */,
+				C7095BC72640368000BCBDA3 /* Main.storyboard */,
+				C7095BCA2640368300BCBDA3 /* Assets.xcassets */,
+				C7095BCC2640368300BCBDA3 /* LaunchScreen.storyboard */,
+				C7095BCF2640368300BCBDA3 /* Info.plist */,
+			);
+			path = resistorCalculator;
+			sourceTree = "<group>";
+		};
+		C7095BD72640368300BCBDA3 /* resistorCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7095BD82640368300BCBDA3 /* resistorCalculatorTests.swift */,
+				C7095BDA2640368300BCBDA3 /* Info.plist */,
+			);
+			path = resistorCalculatorTests;
+			sourceTree = "<group>";
+		};
+		C7095BE22640368300BCBDA3 /* resistorCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7095BE32640368300BCBDA3 /* resistorCalculatorUITests.swift */,
+				C7095BE52640368300BCBDA3 /* Info.plist */,
+			);
+			path = resistorCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7095BBD2640368000BCBDA3 /* resistorCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7095BE82640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculator" */;
+			buildPhases = (
+				C7095BBA2640368000BCBDA3 /* Sources */,
+				C7095BBB2640368000BCBDA3 /* Frameworks */,
+				C7095BBC2640368000BCBDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = resistorCalculator;
+			productName = resistorCalculator;
+			productReference = C7095BBE2640368000BCBDA3 /* resistorCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7095BD32640368300BCBDA3 /* resistorCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7095BEB2640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculatorTests" */;
+			buildPhases = (
+				C7095BD02640368300BCBDA3 /* Sources */,
+				C7095BD12640368300BCBDA3 /* Frameworks */,
+				C7095BD22640368300BCBDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7095BD62640368300BCBDA3 /* PBXTargetDependency */,
+			);
+			name = resistorCalculatorTests;
+			productName = resistorCalculatorTests;
+			productReference = C7095BD42640368300BCBDA3 /* resistorCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7095BDE2640368300BCBDA3 /* resistorCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7095BEE2640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculatorUITests" */;
+			buildPhases = (
+				C7095BDB2640368300BCBDA3 /* Sources */,
+				C7095BDC2640368300BCBDA3 /* Frameworks */,
+				C7095BDD2640368300BCBDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7095BE12640368300BCBDA3 /* PBXTargetDependency */,
+			);
+			name = resistorCalculatorUITests;
+			productName = resistorCalculatorUITests;
+			productReference = C7095BDF2640368300BCBDA3 /* resistorCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7095BB62640368000BCBDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C7095BBD2640368000BCBDA3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C7095BD32640368300BCBDA3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C7095BBD2640368000BCBDA3;
+					};
+					C7095BDE2640368300BCBDA3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C7095BBD2640368000BCBDA3;
+					};
+				};
+			};
+			buildConfigurationList = C7095BB92640368000BCBDA3 /* Build configuration list for PBXProject "resistorCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7095BB52640368000BCBDA3;
+			productRefGroup = C7095BBF2640368000BCBDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7095BBD2640368000BCBDA3 /* resistorCalculator */,
+				C7095BD32640368300BCBDA3 /* resistorCalculatorTests */,
+				C7095BDE2640368300BCBDA3 /* resistorCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7095BBC2640368000BCBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7095BCE2640368300BCBDA3 /* LaunchScreen.storyboard in Resources */,
+				C7095BCB2640368300BCBDA3 /* Assets.xcassets in Resources */,
+				C7095BC92640368000BCBDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BD22640368300BCBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BDD2640368300BCBDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7095BBA2640368000BCBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7095BC62640368000BCBDA3 /* ViewController.swift in Sources */,
+				C7095BC22640368000BCBDA3 /* AppDelegate.swift in Sources */,
+				C7095BC42640368000BCBDA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BD02640368300BCBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7095BD92640368300BCBDA3 /* resistorCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7095BDB2640368300BCBDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7095BE42640368300BCBDA3 /* resistorCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7095BD62640368300BCBDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7095BBD2640368000BCBDA3 /* resistorCalculator */;
+			targetProxy = C7095BD52640368300BCBDA3 /* PBXContainerItemProxy */;
+		};
+		C7095BE12640368300BCBDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7095BBD2640368000BCBDA3 /* resistorCalculator */;
+			targetProxy = C7095BE02640368300BCBDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7095BC72640368000BCBDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7095BC82640368000BCBDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7095BCC2640368300BCBDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7095BCD2640368300BCBDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7095BE62640368300BCBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7095BE72640368300BCBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7095BE92640368300BCBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7095BEA2640368300BCBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7095BEC2640368300BCBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resistorCalculator.app/resistorCalculator";
+			};
+			name = Debug;
+		};
+		C7095BED2640368300BCBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resistorCalculator.app/resistorCalculator";
+			};
+			name = Release;
+		};
+		C7095BEF2640368300BCBDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resistorCalculator;
+			};
+			name = Debug;
+		};
+		C7095BF02640368300BCBDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = resistorCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swca.resistorCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resistorCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7095BB92640368000BCBDA3 /* Build configuration list for PBXProject "resistorCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7095BE62640368300BCBDA3 /* Debug */,
+				C7095BE72640368300BCBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7095BE82640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7095BE92640368300BCBDA3 /* Debug */,
+				C7095BEA2640368300BCBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7095BEB2640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7095BEC2640368300BCBDA3 /* Debug */,
+				C7095BED2640368300BCBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7095BEE2640368300BCBDA3 /* Build configuration list for PBXNativeTarget "resistorCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7095BEF2640368300BCBDA3 /* Debug */,
+				C7095BF02640368300BCBDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7095BB62640368000BCBDA3 /* Project object */;
+}
